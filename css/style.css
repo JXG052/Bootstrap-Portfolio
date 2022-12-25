@@ -1,0 +1,87 @@
+/* Global Styles */
+:root {
+    --main-white: #f0f0f0;
+    --main-green: #7CFC00;
+    --main-blue: #3ad2ff;
+    --main-gray: #303841;
+    --text-blue: #002b57;
+}
+
+/* NavBar */
+.navrow {
+    background-color: var(--main-gray);
+    height: 80px;
+}
+header h1 {
+    justify-content: center;
+    display: flex;
+    border: 1pt solid black;
+    margin: auto;
+    background-color: var(--main-blue);
+    color: var(--main-gray);
+    border-radius: 10px;    
+}
+.nav {
+    justify-content: flex-end;
+    align-items: center;
+}
+header a {
+    color: var(--main-blue);
+    font-size: 18px; 
+}
+
+@media only screen and (max-width: 768px){
+    .navrow {
+        background-color: var(--main-gray);
+        height:100px;
+    }
+    .nav {
+        justify-content: flex-start;
+    }
+    body {
+        background-color: lightblue;
+      }
+}
+/* End Of Nav Styling*/
+.hero-img{
+    background-image: url("/images/blue-flowers-background.jpeg");
+    background-size: cover;
+}
+.container {
+    background-color: var(--main-blue);
+    border-radius: 10px;
+    color: var(--main-gray);
+}
+#profile-pic {
+    border-radius: 1000px;
+    justify-content: flex-end;
+
+}
+/* .image-wrap {
+    display: flex;
+    border: 1pt solid orange;
+    justify-content: space-between;
+    align-items: center;
+} */
+.container-grid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    'h1 profile-pic'
+    'profile-text profile-pic';
+    /* overflow:hidden; */
+}
+#profile-text {
+    grid-area: profile-text;
+}
+#developer-heading {
+    grid-area: h1;
+}
+#profile-pic {
+    grid-area: profile-pic;
+    max-width: 100%;
+    width:auto;
+    height: auto;
+    overflow: hidden;
+}
