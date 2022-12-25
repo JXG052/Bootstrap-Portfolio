@@ -94,6 +94,9 @@ header a {
     border:1pt solid white;
     background-color: var(--main-gray);
 }
+.carousel-item>img {
+    max-height: 400px;
+}
 
 .bd-example {
     padding-top: 100px;
@@ -105,5 +108,9 @@ header a {
 }
 #caesers-image {
     height: 600px;
-
+}
+@media (max-width: 688px) {
+    .carousel-item>img {
+        max-height: 146px;
+    }
 }
