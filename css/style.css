@@ -47,7 +47,7 @@ header a {
     background-image: url("/images/blue-flowers-background.jpeg");
     background-size: cover;
 }
-.container {
+#hero-container {
     background-color: var(--main-blue);
     border-radius: 10px;
     color: var(--main-gray);
@@ -113,4 +113,9 @@ header a {
     .carousel-item>img {
         max-height: 146px;
     }
+}
+.card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
 }
