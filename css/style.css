@@ -89,6 +89,10 @@ header a {
 /* End of Hero Section */
 
 /* Work Section */
+.project-section h2 {
+    color: var(--main-green);
+    padding-bottom: 15px;
+}
 
 /* Keeps Images in project section uniform size */
 .card-img-top {
