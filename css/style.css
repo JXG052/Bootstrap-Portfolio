@@ -1,8 +1,8 @@
 /* Global Styles */
 :root {
     --main-white: #f0f0f0;
-    --main-green: #7CFC00;
-    --main-blue: #3ad2ff;
+    --main-green: #cbec7d;
+    /* --main-green: #3ad2ff; */
     --main-gray: #303841;
     --text-blue: #002b57;
 }
@@ -23,7 +23,7 @@ header h1 {
     display: flex;
     border: 1pt solid black;
     margin: auto;
-    background-color: var(--main-blue);
+    background-color: var(--main-green);
     color: var(--main-gray);
     border-radius: 10px;    
 }
@@ -32,7 +32,7 @@ header h1 {
     align-items: center;
 }
 header a {
-    color: var(--main-blue);
+    color: var(--main-green);
     font-size: 18px; 
 }
 
@@ -50,11 +50,11 @@ header a {
 
 /* Hero Section */
 .hero-img{
-    background-image: url("/images/blue-flowers-background.jpeg");
+    background-image: url("/images/leafy-background.jfif");
     background-size: cover;
 }
 #hero-container {
-    background-color: var(--main-blue);
+    background-color: var(--main-green);
     border-radius: 10px;
     color: var(--main-gray);
 }
@@ -98,9 +98,9 @@ header a {
 }
 
 .card {
-    border: 5px solid var(--main-blue);
+    border: 5px solid var(--main-green);
 }
 .project-section a:hover {
     opacity: 0.5;
-    box-shadow: 10px 10px lightblue;
+    box-shadow: 10px 10px #6a8e14;
 }
