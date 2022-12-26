@@ -109,4 +109,14 @@ header a {
     opacity: 0.5;
     box-shadow: 10px 10px #6a8e14;
 }
-
+/* Skills Section */
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: var(--main-green);
+    border-radius: 50%;
+    display: inline-block;
+  }
+.grey {
+    background-color: var(--main-gray);
+}
