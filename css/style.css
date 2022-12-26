@@ -90,17 +90,18 @@ header a {
 
 /* Work Section */
 .project-section h2 {
-    color: var(--main-green);
-    padding-bottom: 15px;
+    background-color: var(--main-green);
+    color: var(--main-gray);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
-
 /* Keeps Images in project section uniform size */
 .card-img-top {
     width: 100%;
     height: 30vw;
     object-fit: cover;
 }
-
 .card {
     border: 5px solid var(--main-green);
 }
@@ -108,3 +109,4 @@ header a {
     opacity: 0.5;
     box-shadow: 10px 10px #6a8e14;
 }
+
