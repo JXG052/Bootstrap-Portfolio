@@ -13,6 +13,13 @@ a {
     color: black;
 }
 
+h2 {
+    background-color: var(--main-green);
+    color: var(--main-gray);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
 /* NavBar */
 .navrow {
     background-color: var(--main-gray);
@@ -89,13 +96,7 @@ header a {
 /* End of Hero Section */
 
 /* Work Section */
-.project-section h2 {
-    background-color: var(--main-green);
-    color: var(--main-gray);
-    padding: 15px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
+
 /* Keeps Images in project section uniform size */
 .card-img-top {
     width: 100%;
