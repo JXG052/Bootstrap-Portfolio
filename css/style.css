@@ -1,10 +1,16 @@
 /* Global Styles */
 :root {
     --main-white: #f0f0f0;
-    --main-green: #7CFC00;
-    --main-blue: #3ad2ff;
+    --main-green: #cbec7d;
+    /* --main-green: #3ad2ff; */
     --main-gray: #303841;
     --text-blue: #002b57;
+}
+body {
+    background-color: var(--main-gray);
+}
+a {
+    color: black;
 }
 
 /* NavBar */
@@ -17,7 +23,7 @@ header h1 {
     display: flex;
     border: 1pt solid black;
     margin: auto;
-    background-color: var(--main-blue);
+    background-color: var(--main-green);
     color: var(--main-gray);
     border-radius: 10px;    
 }
@@ -26,7 +32,7 @@ header h1 {
     align-items: center;
 }
 header a {
-    color: var(--main-blue);
+    color: var(--main-green);
     font-size: 18px; 
 }
 
@@ -38,17 +44,17 @@ header a {
     .nav {
         justify-content: flex-start;
     }
-    body {
-        background-color: lightblue;
-      }
+
 }
 /* End Of Nav Styling*/
+
+/* Hero Section */
 .hero-img{
-    background-image: url("/images/blue-flowers-background.jpeg");
+    background-image: url("/images/leafy-background.jfif");
     background-size: cover;
 }
-.container {
-    background-color: var(--main-blue);
+#hero-container {
+    background-color: var(--main-green);
     border-radius: 10px;
     color: var(--main-gray);
 }
@@ -57,12 +63,7 @@ header a {
     justify-content: flex-end;
 
 }
-/* .image-wrap {
-    display: flex;
-    border: 1pt solid orange;
-    justify-content: space-between;
-    align-items: center;
-} */
+
 .container-grid {
     display: grid;
     grid-template-columns: 60% 40%;
@@ -85,32 +86,25 @@ header a {
     height: auto;
     overflow: hidden;
 }
+/* End of Hero Section */
 
-/* Carousel Style */
-.carousel-inner{
-    max-height: 800px;
-}
-.carousel-caption {
-    border:1pt solid white;
-    background-color: var(--main-gray);
-}
-.carousel-item>img {
-    max-height: 400px;
+/* Work Section */
+.project-section h2 {
+    color: var(--main-green);
+    padding-bottom: 15px;
 }
 
-.bd-example {
-    padding-top: 100px;
+/* Keeps Images in project section uniform size */
+.card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
 }
-#arrow-right, #arrow-left {
-    font-size: 30px;
-    color: white;
-    background-color: var(--main-gray);
+
+.card {
+    border: 5px solid var(--main-green);
 }
-#caesers-image {
-    height: 600px;
-}
-@media (max-width: 688px) {
-    .carousel-item>img {
-        max-height: 146px;
-    }
+.project-section a:hover {
+    opacity: 0.5;
+    box-shadow: 10px 10px #6a8e14;
 }
