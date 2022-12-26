@@ -85,3 +85,32 @@ header a {
     height: auto;
     overflow: hidden;
 }
+
+/* Carousel Style */
+.carousel-inner{
+    max-height: 800px;
+}
+.carousel-caption {
+    border:1pt solid white;
+    background-color: var(--main-gray);
+}
+.carousel-item>img {
+    max-height: 400px;
+}
+
+.bd-example {
+    padding-top: 100px;
+}
+#arrow-right, #arrow-left {
+    font-size: 30px;
+    color: white;
+    background-color: var(--main-gray);
+}
+#caesers-image {
+    height: 600px;
+}
+@media (max-width: 688px) {
+    .carousel-item>img {
+        max-height: 146px;
+    }
+}
