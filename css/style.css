@@ -57,7 +57,7 @@ header a {
 
 /* Hero Section */
 .hero-img{
-    background-image: url("/images/leafy-background.jfif");
+    background-image: url("images/leafy-background.jfif");
     background-size: cover;
 }
 #hero-container {
