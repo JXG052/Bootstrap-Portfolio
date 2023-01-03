@@ -2,7 +2,7 @@
 :root {
     --main-white: #f0f0f0;
     --main-green: #cbec7d;
-    /* --main-green: #3ad2ff; */
+    
     --main-gray: #303841;
     --text-blue: #002b57;
 }
@@ -43,6 +43,7 @@ header a {
     font-size: 18px; 
 }
 
+/* Adjusts Nav bar for smaller screens */
 @media only screen and (max-width: 768px){
     .navrow {
         background-color: var(--main-gray);
@@ -57,8 +58,9 @@ header a {
 
 /* Hero Section */
 .hero-img{
-    background-image: url("images/leafy-background.jfif");
+    /* background-image: url("images/leafy-background.jpg"); */
     background-size: cover;
+    background-color: var(--main-gray);
 }
 #hero-container {
     background-color: var(--main-green);
@@ -78,7 +80,6 @@ header a {
     grid-template-areas: 
     'h1 profile-pic'
     'profile-text profile-pic';
-    /* overflow:hidden; */
 }
 #profile-text {
     grid-area: profile-text;
@@ -117,6 +118,7 @@ hr {
     margin-bottom: 50px;
     margin-top: 50px;
 }
+/* adjusts height of images on smaller screens  */
 @media only screen and (min-width:992px){
     #key-skills-card {
         max-height: 400px;
