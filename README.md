@@ -14,11 +14,13 @@ This is home to a personal portfolio of my work, built using Bootstrap as per th
 n/a 
 
 ## Usage
-    Open Web page and navigate to the projcects section by scrolling, or by clicking projects in the navbar. Click the link to view the project that is of interest to have it open in a new tab. Click the links in the footer to get in contact with me. 
+Open Web page and navigate to the projcects section by scrolling, or by clicking projects in the navbar. Click the link to view the project that is of interest to have it open in a new tab. Click the links in the footer to get in contact with me. 
 
-    ![image of what the page looks like](images/screenshot-bootstrap.png)
 
-    Link to [Live-Page](https://jxg052.github.io/Bootstrap-Portfolio/)
+![image of what the page looks like](images/screenshot-bootstrap.png)
+
+
+Link to [Live-Page](https://jxg052.github.io/Bootstrap-Portfolio/)
 
 ## Credits
 
