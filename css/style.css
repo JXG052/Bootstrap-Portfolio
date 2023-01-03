@@ -58,7 +58,8 @@ header a {
 
 /* Hero Section */
 .hero-img{
-    /* background-image: url("images/leafy-background.jpg"); */
+    /* background-image: url("images/leafy-background.jpg"); 
+        replaced with background-color for now*/
     background-size: cover;
     background-color: var(--main-gray);
 }
@@ -70,7 +71,6 @@ header a {
 #profile-pic {
     border-radius: 1000px;
     justify-content: flex-end;
-
 }
 
 .container-grid {
@@ -87,6 +87,7 @@ header a {
 #developer-heading {
     grid-area: h1;
 }
+/* Overflow on profile pic necessary for responsiveness  */
 #profile-pic {
     grid-area: profile-pic;
     max-width: 100%;
@@ -124,6 +125,7 @@ hr {
         max-height: 400px;
     } 
 }
+/* style the dots in skills section */
 .dot {
     height: 25px;
     width: 25px;
